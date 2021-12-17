@@ -98,7 +98,6 @@ li{
 
 li:before{
   content: "";
-  display: inline;
   padding-top: 100%;
 }
 
