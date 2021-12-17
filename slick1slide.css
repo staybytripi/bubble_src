@@ -88,17 +88,6 @@ ul{
 }
 
 
-
-li{
-
-  width: 100%;
-}
-
-li:before{
-  content: "";
-  padding-top: 100%;
-}
-
 img{
   position: absolute;
   width: 100%;
