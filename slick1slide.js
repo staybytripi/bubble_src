@@ -1,4 +1,7 @@
-	$('.slider').slick({
+	function hideContainer(el) {
+    $(el).closest("li").remove();
+
+$('.slider').slick({
 		autoplay: false,//自動的に動き出すか。初期値はfalse。
 		autoplaySpeed: 30000,//次のスライドに切り替わる待ち時間
 		speed:300,//スライドの動きのスピード。初期値は300。
